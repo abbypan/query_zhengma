@@ -8,7 +8,7 @@ use https://github.com/acevery/ibus-table-zhengma/blob/master/tables/zhengma.txt
 
 ## usage
 
-    $ perl query_zhengma.pl 华夏
+    $ perl zm.pl 华夏
     华夏 : nran
     华 : nre
     夏 : anrs

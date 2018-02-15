@@ -14,6 +14,7 @@ binmode( STDERR, ":encoding(console_out)" );
 
 
 my ($word) = @ARGV;
+exit unless(defined $word);
 chomp($word);
 $word=decode('utf8', $word);
 
